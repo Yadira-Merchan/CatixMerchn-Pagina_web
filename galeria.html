@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CatixMerchn | Galería</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="paw-bg">
+  <span class="paw p1">🐾</span><span class="paw p2">🐾</span>
+  <span class="paw p3">🐾</span><span class="paw p4">🐾</span>
+  <span class="paw p5">🐾</span><span class="paw p6">🐾</span>
+  <span class="paw p7">🐾</span><span class="paw p8">🐾</span>
+  <span class="paw p9">🐾</span><span class="paw p10">🐾</span>
+  <span class="paw p11">🐾</span>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <span class="lb-close" onclick="closeLB()">×</span>
+  <img src="" id="lb-img" alt="">
+</div>
+
+<div class="nav-overlay" id="navOverlay"></div>
+<nav class="nav-mobile" id="navMobile">
+  <a href="index.html"><span class="nav-icon"><i class="fas fa-home"></i></span>INICIO</a>
+  <a href="nosotros.html"><span class="nav-icon"><i class="fas fa-users"></i></span>NOSOTROS</a>
+  <a href="funcionalidad.html"><span class="nav-icon"><i class="fas fa-cogs"></i></span>FUNCIONALIDAD</a>
+  <a href="arenero.html"><span class="nav-icon"><i class="fas fa-cat"></i></span>ARENERO</a>
+  <a href="galeria.html" class="active"><span class="nav-icon"><i class="fas fa-images"></i></span>GALERÍA</a>
+  <a href="contacto.html"><span class="nav-icon"><i class="fas fa-envelope"></i></span>CONTACTO</a>
+  <div class="nav-mobile-footer">🐾 CatixMerchn © 2026</div>
+</nav>
+
+<a class="wa-float" href="https://wa.me/593988691156?text=Hola!%20Me%20interesa%20el%20CatixMerchn%20🐾" target="_blank">
+  <div class="wa-circle"><i class="fab fa-whatsapp"></i></div>
+  <span class="wa-txt">¡ESCRÍBENOS!</span>
+</a>
+
+<header class="header">
+  <div class="logo"><img src="images/logo.png" alt="CatixMerchn"></div>
+  <nav class="nav-desktop">
+    <a href="index.html">INICIO</a>
+    <a href="nosotros.html">NOSOTROS</a>
+    <a href="funcionalidad.html">FUNCIONALIDAD</a>
+    <a href="arenero.html">ARENERO</a>
+    <a href="galeria.html" class="active">GALERÍA</a>
+    <a href="contacto.html">CONTACTO</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-bg" style="background-image:url('images/producto1.jpg');"></div>
+  <div class="page-hero-content">
+    <span class="section-label">EN IMÁGENES</span>
+    <h1>GALERÍA</h1>
+    <p>Cada imagen muestra el sistema en detalle — construcción, componentes y funcionamiento.</p>
+  </div>
+</div>
+
+<div class="gallery-section">
+  <div class="reveal" style="text-align:center;margin-bottom:10px;">
+    <span class="section-label" style="display:block;text-align:center;">CICLO DE LIMPIEZA Y SISTEMA</span>
+    <h2 class="section-title" style="text-align:center;">El CatixMerchn <span>en acción</span></h2>
+    <div class="section-line" style="margin:16px auto 50px;"></div>
+  </div>
+
+  <div class="gallery-mosaic reveal">
+    <div class="gm-item big" onclick="openLB('images/producto1.jpg')">
+      <img src="images/producto1.jpg" alt="">
+      <div class="gm-caption-box"><h4>CICLO DE LIMPIEZA</h4><p>Arena, limpieza y aroma</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto2.jpg')">
+      <img src="images/producto2.jpg" alt="">
+      <div class="gm-caption-box"><h4>MONITOREO API</h4><p>Control en tiempo real</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto3.jpg')">
+      <img src="images/producto3.jpg" alt="">
+      <div class="gm-caption-box"><h4>ESTRUCTURA PROTOTIPO</h4><p>Diseño del arenero</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto4.jpg')">
+      <img src="images/producto4.jpg" alt="">
+      <div class="gm-caption-box"><h4>PROTOTIPO FRONTAL</h4><p>Vista del sistema</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto5.jpg')">
+      <img src="images/producto5.jpg" alt="">
+      <div class="gm-caption-box"><h4>SENSOR ULTRASÓNICO</h4><p>Detector de ingreso</p></div>
+    </div>
+    <div class="gm-item big" onclick="openLB('images/producto6.jpg')">
+      <img src="images/producto6.jpg" alt="">
+      <div class="gm-caption-box"><h4>DISEÑO ESTRUCTURAL</h4><p>Vista completa del prototipo</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto7.jpg')">
+      <img src="images/producto7.jpg" alt="">
+      <div class="gm-caption-box"><h4>MODO AUTOMÁTICO</h4><p>Sin intervención manual</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto8.jpg')">
+      <img src="images/producto8.jpg" alt="">
+      <div class="gm-caption-box"><h4>COMODIDAD FELINA</h4><p>Espacio para el gato</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto9.jpg')">
+      <img src="images/producto9.jpg" alt="">
+      <div class="gm-caption-box"><h4>CIRCUITO ELECTRÓNICO</h4><p>Armado y conexiones</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto10.jpg')">
+      <img src="images/producto10.jpg" alt="">
+      <div class="gm-caption-box"><h4>MONITOREO REMOTO</h4><p>Control desde el celular</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto11.jpg')">
+      <img src="images/producto11.jpg" alt="">
+      <div class="gm-caption-box"><h4>CONTENEDOR SELLADO</h4><p>Desechos sin olor</p></div>
+    </div>
+    <div class="gm-item" onclick="openLB('images/producto12.jpg')">
+      <img src="images/producto12.jpg" alt="">
+      <div class="gm-caption-box"><h4>SISTEMA COMPLETO</h4><p>Resultado final</p></div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <img src="images/logo.png" alt="logo">
+  <p>© 2026 CatixMerchn | Futuro Felino 🐾</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

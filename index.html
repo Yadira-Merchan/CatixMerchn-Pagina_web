@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CatixMerchn | Arenero Inteligente</title>
+<link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- HUELLAS -->
+<div class="paw-bg">
+  <span class="paw p1">🐾</span><span class="paw p2">🐾</span>
+  <span class="paw p3">🐾</span><span class="paw p4">🐾</span>
+  <span class="paw p5">🐾</span><span class="paw p6">🐾</span>
+  <span class="paw p7">🐾</span><span class="paw p8">🐾</span>
+  <span class="paw p9">🐾</span><span class="paw p10">🐾</span>
+  <span class="paw p11">🐾</span>
+</div>
+
+<!-- OVERLAY MENÚ MÓVIL -->
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- MENÚ MÓVIL DESPLEGABLE -->
+<nav class="nav-mobile" id="navMobile">
+  <a href="index.html" class="active"><span class="nav-icon"><i class="fas fa-home"></i></span>INICIO</a>
+  <a href="nosotros.html"><span class="nav-icon"><i class="fas fa-users"></i></span>NOSOTROS</a>
+  <a href="funcionalidad.html"><span class="nav-icon"><i class="fas fa-cogs"></i></span>FUNCIONALIDAD</a>
+  <a href="arenero.html"><span class="nav-icon"><i class="fas fa-cat"></i></span>ARENERO</a>
+  <a href="galeria.html"><span class="nav-icon"><i class="fas fa-images"></i></span>GALERÍA</a>
+  <a href="contacto.html"><span class="nav-icon"><i class="fas fa-envelope"></i></span>CONTACTO</a>
+  <div class="nav-mobile-footer">🐾 CatixMerchn © 2026</div>
+</nav>
+
+<!-- WHATSAPP -->
+<a class="wa-float" href="https://wa.me/593988691156?text=Hola!%20Me%20interesa%20el%20CatixMerchn%20🐾" target="_blank">
+  <div class="wa-circle"><i class="fab fa-whatsapp"></i></div>
+  <span class="wa-txt">¡ESCRÍBENOS!</span>
+</a>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo"><img src="images/logo.png" alt="CatixMerchn"></div>
+  <!-- Desktop nav -->
+  <nav class="nav-desktop">
+    <a href="index.html" class="active">INICIO</a>
+    <a href="nosotros.html">NOSOTROS</a>
+    <a href="funcionalidad.html">FUNCIONALIDAD</a>
+    <a href="arenero.html">ARENERO</a>
+    <a href="galeria.html">GALERÍA</a>
+    <a href="contacto.html">CONTACTO</a>
+  </nav>
+  <!-- Hamburguesa móvil -->
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO CARRUSEL -->
+<div class="hero-carousel" id="carousel">
+  <div class="slide active">
+    <div class="slide-bg" style="background-image:url('images/producto1.jpg')"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">🐾 ARENERO INTELIGENTE</span>
+      <h1>El futuro de la<br><span>higiene felina</span></h1>
+      <p>Tu gato siempre limpio. Sin que hagas nada.</p>
+      <div class="slide-buttons">
+        <a class="btn btn-f" href="arenero.html">VER ARENERO</a>
+        <a class="btn btn-blanco" href="galeria.html">VER GALERÍA</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-bg" style="background-image:url('images/producto2.jpg')"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">🧹 LIMPIEZA AUTOMÁTICA</span>
+      <h1>Se limpia solo.<br><span>Siempre listo.</span></h1>
+      <p>Rastrillo motorizado actúa segundos después de cada uso.</p>
+      <div class="slide-buttons">
+        <a class="btn btn-f" href="funcionalidad.html">CÓMO FUNCIONA</a>
+        <a class="btn btn-blanco" href="contacto.html">CONTÁCTANOS</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-bg" style="background-image:url('images/producto3.jpg')"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">🌿 CONTROL DE OLORES</span>
+      <h1>Sin olores.<br><span>Sin preocupaciones.</span></h1>
+      <p>Filtro de carbón y extractor eliminan los malos olores al instante.</p>
+      <div class="slide-buttons">
+        <a class="btn btn-f" href="arenero.html">MÁS DETALLES</a>
+        <a class="btn btn-blanco" href="nosotros.html">NUESTRO PROYECTO</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="slide-bg" style="background-image:url('images/producto4.jpg')"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">📱 MONITOREO IOT</span>
+      <h1>Tu celular.<br><span>Tu arenero.</span></h1>
+      <p>Alertas en tiempo real. Siempre informado, estés donde estés.</p>
+      <div class="slide-buttons">
+        <a class="btn btn-f" href="funcionalidad.html">VER FUNCIONALIDAD</a>
+        <a class="btn btn-blanco" href="galeria.html">VER GALERÍA</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-btn carousel-prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+  <button class="carousel-btn carousel-next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+  <div class="carousel-dots" id="dots">
+    <div class="dot active" onclick="goSlide(0)"></div>
+    <div class="dot" onclick="goSlide(1)"></div>
+    <div class="dot" onclick="goSlide(2)"></div>
+    <div class="dot" onclick="goSlide(3)"></div>
+  </div>
+  <div class="carousel-progress" id="progress"></div>
+</div>
+
+<!-- FEATURES -->
+<div class="features-strip">
+  <div class="feat-item reveal"><span class="fi-icon"><i class="fas fa-broom"></i></span><h3>Limpieza Automática</h3><p>Sin intervención manual. Siempre limpio.</p></div>
+  <div class="feat-item reveal"><span class="fi-icon"><i class="fas fa-leaf"></i></span><h3>Sin Malos Olores</h3><p>Filtro de carbón activado integrado.</p></div>
+  <div class="feat-item reveal"><span class="fi-icon"><i class="fas fa-mobile-alt"></i></span><h3>App en tu Celular</h3><p>Control y alertas en tiempo real.</p></div>
+  <div class="feat-item reveal"><span class="fi-icon"><i class="fas fa-wifi"></i></span><h3>Tecnología IoT</h3><p>Conectado 24/7. Funciona solo.</p></div>
+</div>
+
+<!-- QUOTE -->
+<div class="quote-band">
+  <p class="quote-text">"Porque tu gato merece lo mejor — y tú mereces tranquilidad."</p>
+  <p class="quote-sub">CatixMerchn · Higiene Felina Inteligente · 2026</p>
+</div>
+
+<!-- DOS COLUMNAS -->
+<div class="two-col">
+  <div class="tc-img reveal from-left"><img src="images/producto5.jpg" alt="Sistema CatixMerchn"></div>
+  <div class="tc-text reveal from-right">
+    <span class="section-label">¿QUÉ ES?</span>
+    <h2 class="section-title">Un arenero que <span>trabaja por ti</span></h2>
+    <div class="section-line"></div>
+    <p>El <span class="hl">CatixMerchn</span> detecta cuando tu gato lo usa, se limpia solo, elimina los olores y te avisa desde el celular.</p>
+    <p>Sin limpiezas manuales. Sin malos olores. Sin preocuparte por nada.</p>
+    <div class="chips">
+      <span class="chip">🤖 AUTOMATIZADO</span>
+      <span class="chip">📱 APP MÓVIL</span>
+      <span class="chip">⚡ IOT</span>
+      <span class="chip">🐱 FELINO</span>
+    </div>
+    <div style="margin-top:26px;"><a class="btn btn-f" href="nosotros.html">CONOCER PROYECTO</a></div>
+  </div>
+</div>
+
+<div class="two-col reverse">
+  <div class="tc-img reveal from-right"><img src="images/producto6.jpg" alt="Arenero para gato"></div>
+  <div class="tc-text reveal from-left" style="background:#f5f0f3;">
+    <span class="section-label">BIENESTAR FELINO</span>
+    <h2 class="section-title">Diseñado para <span>tu gato</span></h2>
+    <div class="section-line"></div>
+    <p>Entrada amplia, paredes altas y materiales seguros. Silencioso para no asustar al gato.</p>
+    <p>Un <span class="hl">ambiente limpio</span> reduce el estrés felino y mejora su calidad de vida.</p>
+    <div style="margin-top:26px;"><a class="btn btn-f" href="arenero.html">VER ARENERO</a></div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat-item reveal"><span class="stat-num">6</span><span class="stat-label">PASOS AUTOMÁTICOS</span></div>
+  <div class="stat-item reveal"><span class="stat-num">24/7</span><span class="stat-label">MONITOREO</span></div>
+  <div class="stat-item reveal"><span class="stat-num">0</span><span class="stat-label">LIMPIEZAS MANUALES</span></div>
+  <div class="stat-item reveal"><span class="stat-num">100%</span><span class="stat-label">AUTOMÁTICO</span></div>
+</div>
+
+<footer class="footer">
+  <img src="images/logo.png" alt="CatixMerchn">
+  <p>© 2026 CatixMerchn | Futuro Felino 🐾</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
