@@ -133,7 +133,7 @@ function initForm() {
       var a = document.getElementById('form-alert');
       var s = document.getElementById('alert-msg');
       if (a && s) { s.textContent = msg; a.style.display = 'block'; }
-      if (campo) { campo.focus(); campo.style.borderColor = '#e0057a'; }
+      if (campo) { campo.focus(); campo.style.borderColor = '#00807e'; }
       setTimeout(function() { if (a) a.style.display = 'none'; }, 5000);
     }
 
